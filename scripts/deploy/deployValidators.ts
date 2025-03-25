@@ -30,7 +30,7 @@ async function main() {
       deployStrategy,
     );
 
-    await verifyContract(await validator.getAddress(), deployHelper.getValidatorVerification(v));
+    // await verifyContract(await validator.getAddress(), deployHelper.getValidatorVerification(v));
 
     // only add validators info if groth16VerifierWrapper is deployed
     if (groth16VerifierWrapper) {
@@ -39,10 +39,10 @@ async function main() {
         validator: await validator.getAddress(),
         groth16verifier: await groth16VerifierWrapper?.getAddress(),
       });
-      await verifyContract(
-        await groth16VerifierWrapper.getAddress(),
-        deployHelper.getGroth16VerifierWrapperVerification(v),
-      );
+      // await verifyContract(
+      //   await groth16VerifierWrapper.getAddress(),
+      //   deployHelper.getGroth16VerifierWrapperVerification(v),
+      // );
     }
   }
 

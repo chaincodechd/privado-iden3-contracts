@@ -39,6 +39,9 @@ const config: HardhatUserConfig = {
     compilers: [
       {
         version: "0.8.27",
+        settings: {
+          evmVersion: "london",
+        },
       },
     ],
   },
@@ -102,6 +105,13 @@ const config: HardhatUserConfig = {
       url: `${process.env.LINEA_SEPOLIA_RPC_URL}`,
       // accounts: process.env.PRIVATE_KEY ? [`0x${process.env.PRIVATE_KEY}`] : DEFAULT_ACCOUNTS,
       ledgerAccounts: [`${process.env.LEDGER_ACCOUNT}`],
+    },
+    besu: {
+      chainId: 23849,
+      url: "https://rpc.ekyc-mgnrega.web3sutr.com",
+      gasPrice: 0,
+      timeout: 100000000,
+      accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
     // hardhat: {
     //   chainId: 80002,

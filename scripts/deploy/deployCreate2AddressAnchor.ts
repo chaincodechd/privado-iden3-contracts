@@ -3,7 +3,7 @@ import { Create2AddressAnchorModule } from "../../ignition/modules/crate2Address
 import { contractsInfo } from "../../helpers/constants";
 
 async function main() {
-  const deployStrategy: "basic" | "create2" = "create2";
+  const deployStrategy: "basic" | "create2" = "basic";
   const [signer] = await ethers.getSigners();
 
   const { create2AddressAnchor } = await ignition.deploy(Create2AddressAnchorModule, {

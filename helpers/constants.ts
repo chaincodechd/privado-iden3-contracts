@@ -75,7 +75,12 @@ export const chainIdInfoMap: Map<number, ChainIdInfo> = new Map()
     idType: "0x0148",
     networkType: "test",
     oracleSigningAddress: ORACLE_SIGNING_ADDRESS_PRODUCTION,
-  }); // linea-sepolia
+  })
+  .set(23849, {
+    idType: "0x0150",
+    networkType: "main",
+    oracleSigningAddress: ORACLE_SIGNING_ADDRESS_PRODUCTION,
+  }); // custom network
 
 export const networks = Object.freeze({
   PRIVADO_TEST: { name: "Privado Test", chainId: 21001 },

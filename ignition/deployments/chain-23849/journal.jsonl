@@ -1,0 +1,8 @@
+
+{"chainId":23849,"type":"DEPLOYMENT_INITIALIZE"}
+{"artifactId":"Create2AddressAnchorModule#Create2AddressAnchor","constructorArgs":[],"contractName":"Create2AddressAnchor","dependencies":[],"from":"0x0Be88455E8A1FD649DEc1b91bbde49fCe716e52B","futureId":"Create2AddressAnchorModule#Create2AddressAnchor","futureType":"CONTRACT_DEPLOYMENT","libraries":{},"strategy":"basic","strategyConfig":{},"type":"DEPLOYMENT_EXECUTION_STATE_INITIALIZE","value":{"_kind":"bigint","value":"0"}}
+{"futureId":"Create2AddressAnchorModule#Create2AddressAnchor","networkInteraction":{"data":"0x6005600C60003960056000F360006000F3","id":1,"type":"ONCHAIN_INTERACTION","value":{"_kind":"bigint","value":"0"}},"type":"NETWORK_INTERACTION_REQUEST"}
+{"futureId":"Create2AddressAnchorModule#Create2AddressAnchor","networkInteractionId":1,"nonce":0,"type":"TRANSACTION_PREPARE_SEND"}
+{"futureId":"Create2AddressAnchorModule#Create2AddressAnchor","networkInteractionId":1,"nonce":0,"transaction":{"fees":{"maxFeePerGas":{"_kind":"bigint","value":"0"},"maxPriorityFeePerGas":{"_kind":"bigint","value":"0"}},"hash":"0xeaf9ba8faf1c15c610b02719548737f3f671a401f9a085e8e904daa995d50642"},"type":"TRANSACTION_SEND"}
+{"futureId":"Create2AddressAnchorModule#Create2AddressAnchor","hash":"0xeaf9ba8faf1c15c610b02719548737f3f671a401f9a085e8e904daa995d50642","networkInteractionId":1,"receipt":{"blockHash":"0xb0c11cafb54834bac19e289780d0f973d19ace944456b7b2b40a2e0fd35c6688","blockNumber":968,"contractAddress":"0x9D50dB6787C9B6FEc0C41bC8d03a5b885b9794c3","logs":[],"status":"SUCCESS"},"type":"TRANSACTION_CONFIRM"}
+{"futureId":"Create2AddressAnchorModule#Create2AddressAnchor","result":{"address":"0x9D50dB6787C9B6FEc0C41bC8d03a5b885b9794c3","type":"SUCCESS"},"type":"DEPLOYMENT_EXECUTION_STATE_COMPLETE"}

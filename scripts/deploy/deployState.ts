@@ -46,20 +46,20 @@ async function main() {
     stateCrossChainLib &&
     crossChainProofValidator
   ) {
-    await verifyContract(await state.getAddress(), contractsInfo.STATE.verificationOpts);
-    await verifyContract(
-      await groth16VerifierStateTransition.getAddress(),
-      contractsInfo.GROTH16_VERIFIER_STATE_TRANSITION.verificationOpts,
-    );
-    await verifyContract(await stateLib.getAddress(), contractsInfo.STATE_LIB.verificationOpts);
-    await verifyContract(
-      await stateCrossChainLib.getAddress(),
-      contractsInfo.STATE_CROSS_CHAIN_LIB.verificationOpts,
-    );
-    await verifyContract(
-      await crossChainProofValidator.getAddress(),
-      contractsInfo.CROSS_CHAIN_PROOF_VALIDATOR.verificationOpts,
-    );
+    // await verifyContract(await state.getAddress(), contractsInfo.STATE.verificationOpts);
+    // await verifyContract(
+    //   await groth16VerifierStateTransition.getAddress(),
+    //   contractsInfo.GROTH16_VERIFIER_STATE_TRANSITION.verificationOpts,
+    // );
+    // await verifyContract(await stateLib.getAddress(), contractsInfo.STATE_LIB.verificationOpts);
+    // await verifyContract(
+    //   await stateCrossChainLib.getAddress(),
+    //   contractsInfo.STATE_CROSS_CHAIN_LIB.verificationOpts,
+    // );
+    // await verifyContract(
+    //   await crossChainProofValidator.getAddress(),
+    //   contractsInfo.CROSS_CHAIN_PROOF_VALIDATOR.verificationOpts,
+    // );
 
     const pathOutputJson = path.join(
       __dirname,

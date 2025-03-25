@@ -30,10 +30,10 @@ import { contractsInfo } from "../../helpers/constants";
     deployStrategy,
   );
 
-  await verifyContract(
-    await identityTreeStore.getAddress(),
-    contractsInfo.IDENTITY_TREE_STORE.verificationOpts,
-  );
+  // await verifyContract(
+  //   await identityTreeStore.getAddress(),
+  //   contractsInfo.IDENTITY_TREE_STORE.verificationOpts,
+  // );
 
   const networkName = hre.network.name;
   const pathOutputJson = path.join(

@@ -23,7 +23,7 @@ async function main() {
     deployStrategy,
   );
 
-  await verifyContract(await smtLib.getAddress(), contractsInfo.SMT_LIB.verificationOpts);
+  // await verifyContract(await smtLib.getAddress(), contractsInfo.SMT_LIB.verificationOpts);
 
   const chainId = await getChainId();
   const networkName = hre.network.name;
