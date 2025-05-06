@@ -1,9 +1,0 @@
-{
- "proxyAdminOwnerAddress": "0x0Be88455E8A1FD649DEc1b91bbde49fCe716e52B",
- "identityTreeStore": "0x75c65E20Ea732D7dcf36A627dfa0BfA4D5f58BA8",
- "poseidon2ContractAddress": "0x72F721D9D5f91353B505207C63B56cF3d9447edB",
- "poseidon3ContractAddress": "0x5Bc89782d5eBF62663Df7Ce5fb4bc7408926A240",
- "network": "besu",
- "chainId": 23849,
- "deployStrategy": "basic"
-}

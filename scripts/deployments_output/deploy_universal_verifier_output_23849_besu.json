@@ -1,9 +1,0 @@
-{
- "proxyAdminOwnerAddress": "0x0Be88455E8A1FD649DEc1b91bbde49fCe716e52B",
- "universalVerifier": "0xf79ca4e40DFeeF2115ae4e9D85Fb3a524cb0A9D0",
- "verifierLib": "0xaf5bDb9156a54a62Dba2917248a6167588a882d9",
- "state": "0x3C9acB2205Aa72A05F6D77d708b5Cf85FCa3a896",
- "network": "besu",
- "chainId": 23849,
- "deployStrategy": "basic"
-}

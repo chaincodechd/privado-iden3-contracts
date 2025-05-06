@@ -77,7 +77,7 @@ export const chainIdInfoMap: Map<number, ChainIdInfo> = new Map()
     oracleSigningAddress: ORACLE_SIGNING_ADDRESS_PRODUCTION,
   })
   .set(23849, {
-    idType: "0x0150",
+    idType: "0x0101",
     networkType: "main",
     oracleSigningAddress: ORACLE_SIGNING_ADDRESS_PRODUCTION,
   }); // custom network

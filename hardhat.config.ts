@@ -108,7 +108,7 @@ const config: HardhatUserConfig = {
     },
     besu: {
       chainId: 23849,
-      url: "https://rpc.ekyc-mgnrega.web3sutr.com",
+      url: "http://10.11.0.8:8545",
       gasPrice: 0,
       timeout: 100000000,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
